@@ -131,6 +131,7 @@ def hemisphere_data(browser):
     image_urls = []
     hemispheres = {}
 
+    # run the hemisphere_urls function to get the urls for each hemisphere
     hemisphere_urls = get_hemisphere_urls(image_soup1)
 
     for url in hemisphere_urls:
